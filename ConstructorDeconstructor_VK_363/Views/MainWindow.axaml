@@ -1,0 +1,34 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ConstructorDeconstructor_VK_363.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ConstructorDeconstructor_VK_363.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="ConstructorDesconstructor"
+        Background="#2b2b2b">
+        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                
+                <TextBox  x:Name="ProductName" Watermark="Ввведите название продукта" Width="500" FontSize="20" Foreground="Azure" Margin="2"/>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="NameError"  Foreground="red" FontSize="15" Margin="5"/>
+                
+                <TextBox x:Name="ProductPrice" Watermark="Ввведите цену продукта" FontSize="20" Foreground="Azure" Width="500" Margin="2"/>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="PriceError" Foreground="red" FontSize="15" Margin="5"/>
+                
+                <TextBox x:Name="ProductQuantity" Watermark="Ввведите количество этого продукта на складе (опционально)" FontSize="20" Width="500" Foreground="Azure" Margin="2"/>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="QuantityError" Foreground="red" FontSize="15" Margin="5"/>
+                
+                <Button Click="Button_AppendProduct" FontSize="16" HorizontalContentAlignment="Center" Margin="10" Content="Добавить товар" Width="800" CornerRadius="10" Padding="5"/>
+                
+                <ListBox Foreground="Black" Margin="20"  x:Name="ProductsList" Background="Bisque" MinHeight="100" MaxHeight="500" CornerRadius="5"/>
+                
+                <Button Click="Button_DeconstructionSelectedProduct" FontSize="16" HorizontalContentAlignment="Center" Margin="10" Content="Деконструировать товар" Width="800" CornerRadius="10"  Padding="5"/>
+                
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="DeconstructedProductInformation" FontSize="20" Margin="0,10" />
+                
+        </StackPanel>
+        
+</Window>
