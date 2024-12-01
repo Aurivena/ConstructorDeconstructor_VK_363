@@ -66,3 +66,4 @@
 /home/akeceqm/RiderProjects/ConstructorDeconstructor_VK_363/ConstructorDeconstructor_VK_363/obj/Debug/net8.0/ConstructorDeconstructor_VK_363.csproj.CopyComplete
 /home/akeceqm/RiderProjects/ConstructorDeconstructor_VK_363/ConstructorDeconstructor_VK_363/obj/Debug/net8.0/ConstructorDeconstructor_VK_363.genruntimeconfig.cache
 /home/akeceqm/RiderProjects/ConstructorDeconstructor_VK_363/ConstructorDeconstructor_VK_363/obj/Debug/net8.0/ref/ConstructorDeconstructor_VK_363.dll
+/home/akeceqm/RiderProjects/ConstructorDeconstructor_VK_363/ConstructorDeconstructor_VK_363/obj/Debug/net8.0/ConstructorDeconstructor_VK_363.sourcelink.json
